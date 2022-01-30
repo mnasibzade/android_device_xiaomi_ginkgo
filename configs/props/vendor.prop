@@ -196,11 +196,16 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Incremental FS
 ro.incremental.enable=1
 
+
 # Keystore
 ro.hardware.keystore_desede=true
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 
 # RIL
 persist.dbg.volte_avail_ovr=1
